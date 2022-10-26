@@ -77,12 +77,12 @@ public class Main {
             System.out.println("Ребенок может кататься только в сопровождении взрослого. Если взрослого нет, то кататься нельзя");
         } else System.out.println("Ребенок может кататься без сопровождения взрослого");
         //Задание 3-3
-        int one = 14;
+        int one = 1;
         int two = 8;
         int free = 5;
         if (one > two && one > free) {
             System.out.println(" Самое большое число " + one);
-        } if (two > one && two> one) {
+        } else if (two > one && two> free) {
             System.out.println(" Самое большое число " + two);
         } else System.out.println(" Самое большое число " + free);
         }
