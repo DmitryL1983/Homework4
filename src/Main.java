@@ -69,11 +69,22 @@ public class Main {
         } else if (University) {
             System.out.println("Если возраст человека равен " + personAge + " то ему нужно ходить в университет");
         } else System.out.println("Если возраст человека равен " + personAge + " то ему нужно ходить на работу");
-            }
+        //Задание 2-3
+        int ChildAge = 10;
+        if (ChildAge < 5) {
+            System.out.println("Ребенок слишком мал и не может кататься на атракционе");
+        } else if (ChildAge >= 5 && ChildAge < 14) {
+            System.out.println("Ребенок может кататься только в сопровождении взрослого. Если взрослого нет, то кататься нельзя");
+        } else System.out.println("Ребенок может кататься без сопровождения взрослого");
+        //Задание 3-3
+        int one = 14;
+        int two = 8;
+        int free = 5;
+        if (one > two && one > free) {
+            System.out.println(" Самое большое число " + one);
+        } if (two > one && two> one) {
+            System.out.println(" Самое большое число " + two);
+        } else System.out.println(" Самое большое число " + free);
         }
 
-
-
-
-
-
+    }
